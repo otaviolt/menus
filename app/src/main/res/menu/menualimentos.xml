@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mFavorito"
+        android:icon="@drawable/baseline_star"
+        android:title="Favorito"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/baseline_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/mPerguntar"
+        android:icon="@drawable/baseline_help_outline"
+        android:title="Perguntar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mTraduzir"
+        android:icon="@drawable/baseline_language"
+        android:title="Traduzir"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/mCalcular"
+        android:icon="@drawable/baseline_calculate"
+        android:title="Calcular"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-<
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/baseline_save"
+        android:title="Salvar"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/baseline_edit"
+        android:title="Alterar"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/mDelete"
+        android:icon="@drawable/baseline_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        />
+
+
+
 </menu>
